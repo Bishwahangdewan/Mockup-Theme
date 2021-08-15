@@ -1,0 +1,183 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+
+  font-family:'Open-sans',sans-serif;
+  font-size:17px;
+  line-height:1.5em;
+  margin:0;
+  padding:0;
+}
+.row{
+  width:100%;
+  margin:auto;
+}
+.container{
+  margin:auto;
+}
+
+img{
+  width:100%;
+  height:100%;
+}
+
+/*Common Clsses*/
+.primary-text{
+  color:#56a79a;
+}
+
+.primary-background{
+  background-color:#56a79a;
+  }
+
+header{
+  border-bottom :1px solid #56a79a;
+}
+
+#navbar{
+  text-transform:uppercase;
+}
+
+#navbar li{
+  display:inline;
+  padding-right:20px;
+  list-style:none;
+}
+
+#navbar a{
+  color:#888;
+  text-decoration:none;
+}
+
+#navbar li.current a,#navbar a:hover{
+  color:#56a79a;
+  border-bottom:3px solid #56a79a;
+  padding-bottom:3px;
+}
+
+#showcase{
+  background:url('../images/showcase.jpg') no-repeat center center/cover;
+  border-bottom :1px solid #56a79a;
+  margin-bottom:30px;
+
+}
+
+#showcase .row{
+  height:600px;
+}
+
+#showcase h1{
+  font-size:50px;
+  margin:0;
+  padding-bottom:20px;
+
+}
+
+#showcase p{
+  color:#ccc;
+  margin:0;
+}
+
+#showcase  .showcase-content{
+  background:#333;
+  color:#fff;
+  border-radius:90px;
+  padding:40px;
+  opacity:0.8
+}
+
+/*Features*/
+#features h2{
+  font-size:35px;
+  margin-bottom:0;
+  padding-bottom:10px;
+}
+
+#features p{
+  color:#888;
+  margin:0;
+  margin-bottom: 40px;
+}
+
+#features .fas{
+  font-size:60px;
+  color:#56a79a;
+}
+
+/*Info*/
+#info{
+  background:url('../images/info-bg.jpg') no-repeat center center/cover;
+  color:#fff;
+}
+#info h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:10px;
+}
+
+#info ul{
+  list-style:none;
+  padding:0;
+}
+
+#info li{
+  font-size:20px;
+  line-height:2em;
+
+}
+
+/*Company */
+#company{
+  background:#333;
+  color:#fff;
+  padding:10px 0;
+}
+
+#company h4{
+  text-transform:uppercase;
+  margin-bottom:0;
+
+}
+
+#company ul{
+  padding:0;
+  list-style:none;
+  line-height:2em;
+}
+
+#company input[type="text"]{
+  padding:7px;
+}
+
+#company button{
+  background:#222;
+  color:#fff;
+  padding:10px;
+  border:0;
+}
+
+/*footer*/
+#main-footer{
+  background:#56a79a;
+  color:#fff;
+}
+/*M<edia Quries*/
+@media(max-width:720px){
+  #showcase h1{
+    font-size:30px;
+  }
+  #showcase .showcase-content{
+    border-radius:0;
+
+  }
+}
+
+@media(max-width:500px){
+  #showcase .showcase-content{
+    padding:40px 10px;
+    border-radius:0;
+
+  }
+}
