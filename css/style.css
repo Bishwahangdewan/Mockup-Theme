@@ -71,8 +71,8 @@ header{
 #showcase h1{
   font-size:50px;
   margin:0;
-  padding-bottom:50px;
-
+  padding-bottom:30px;
+  line-height:2.5;
 }
 
 #showcase p{
